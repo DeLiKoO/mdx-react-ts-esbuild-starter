@@ -1,0 +1,22 @@
+{
+  "name": "isaphil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:production": "esbuild index.tsx --outfile=index.js --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16",
+    "build": "esbuild index.tsx --outfile=index.js --bundle --target=chrome58,firefox57,safari11,edge16",
+    "serve": " http-server -c-1 ."
+  },
+  "author": "Christophe DELIQUAIRE <christophe.deliquaire@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.54",
+    "http-server": "^14.1.1"
+  },
+  "packageManager": "yarn@3.2.2"
+}
