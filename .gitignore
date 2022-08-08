@@ -1,2 +1,6 @@
 *.js
 *.js.map
+.yarn
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
