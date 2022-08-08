@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.mjs",
     "serve": " http-server -c-1 public"
   },
   "author": "Christophe DELIQUAIRE <christophe.deliquaire@gmail.com>",
@@ -14,9 +14,15 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@mdx-js/esbuild": "^2.1.2",
+    "@mdx-js/react": "^2.1.2",
+    "@types/mdx": "^2.0.2",
+    "@types/react": "^18.0.17",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.14",
+    "@yarnpkg/sdks": "^3.0.0-rc.14",
     "esbuild": "^0.14.54",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "typescript": "^4.7.4"
   },
   "packageManager": "yarn@3.2.2"
 }
