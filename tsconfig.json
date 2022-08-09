@@ -1,0 +1,5 @@
+{
+    "extends": "@tsconfig/create-react-app/tsconfig.json",
+    "include": ["src/**/*.tsx?"],
+    "exclude": ["node_modules", "src/**/*.test.ts"]
+  }
