@@ -13,10 +13,18 @@ window.onload = function() {
     );
     root.render((
     <>
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-        <Page />
+        <header className='flex text-center'>    
+            <h1 className='text-3xl font-bold underline'>
+                Hello world!
+            </h1>
+        </header>
+        <div id='content' className=''>
+
+            <Page />
+        </div>
+        <footer>
+
+        </footer>
     </>
     ));
 }

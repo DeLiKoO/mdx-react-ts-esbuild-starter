@@ -1,11 +1,8 @@
 import { pnpPlugin } from '@yarnpkg/esbuild-plugin-pnp';
 import mdxPlugin from '@mdx-js/esbuild';
-import postCssPlugin from 'esbuild-plugin-postcss2';
-import tailwindcss from 'tailwindcss';
-import autoprefixer from 'autoprefixer';
 
 export default {
-    entryPoints: ['./src/index.tsx', './src/index.css'],
+    entryPoints: ['./src/index.tsx'],
     bundle: true,
     outdir: 'public',
     loader: {
@@ -22,8 +19,5 @@ export default {
     plugins: [
         mdxPlugin(),
         pnpPlugin(),
-        postCssPlugin({
-            plugins: [tailwindcss, autoprefixer],
-        })
     ],
 }

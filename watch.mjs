@@ -21,6 +21,7 @@ function createServerProcess() {
 
 esbuild.build({
   ...config,
+  sourcemap: true,
   watch: {
     onRebuild(error, result) {
       if (error) console.error('eslint build failed:', error)

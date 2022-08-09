@@ -1,5 +1,10 @@
 import esbuild from 'esbuild';
 import config from './.esbuildrc.mjs';
 
-esbuild.build(config).catch(() => process.exit(1))
+esbuild.build(Object.assign(
+  config,
+  {
+    minify: true,
+  }
+)).catch(() => process.exit(1))
 

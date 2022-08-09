@@ -30,7 +30,6 @@
     "@yarnpkg/sdks": "^3.0.0-rc.14",
     "autoprefixer": "^10.4.8",
     "esbuild": "^0.14.54",
-    "esbuild-plugin-postcss2": "^0.1.2",
     "eslint": "^8.21.0",
     "eslint-plugin-react": "latest",
     "http-server": "^14.1.1",

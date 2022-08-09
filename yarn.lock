@@ -298,6 +298,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/less@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "@types/less@npm:3.0.3"
+  checksum: 389ce4c843fb88484ffbe4e3b63da0db1cea3e594c57086a5e642431f031f569819b4a210ae4ca109207d2307daa7e48e0e00315892fa7582748e0f434e62881
+  languageName: node
+  linkType: hard
+
 "@types/mdast@npm:^3.0.0":
   version: 3.0.10
   resolution: "@types/mdast@npm:3.0.10"
@@ -362,6 +369,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/sass@npm:^1.43.1":
+  version: 1.43.1
+  resolution: "@types/sass@npm:1.43.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 19eb71acc4b0d7db2170732a51ad18a34007021f42069652a5be8a3e3a448a470d2f970b9e85f734d1896bf3a25e48fb5132b4a989c101eb5df21cc171d426c5
+  languageName: node
+  linkType: hard
+
 "@types/scheduler@npm:*":
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
@@ -373,6 +389,15 @@ __metadata:
   version: 7.3.10
   resolution: "@types/semver@npm:7.3.10"
   checksum: 7047c2822b1759b2b950f39cfcf261f2b9dca47b4b55bdebba0905a8553631f1531eb0f59264ffe4834d1198c8331c8e0010a4cd742f4e0b60abbf399d134364
+  languageName: node
+  linkType: hard
+
+"@types/stylus@npm:^0.48.37":
+  version: 0.48.38
+  resolution: "@types/stylus@npm:0.48.38"
+  dependencies:
+    "@types/node": "*"
+  checksum: 7f9fa997b3dac0a2629f5e1816e5b5e191789c5a2c6cb4bdd1d91db4b359867d762b0df01b68db4f85079b98dc675ee7318390602dddd655f5b264bf9e23c038
   languageName: node
   linkType: hard
 
@@ -1678,6 +1703,20 @@ __metadata:
     sass: ^1.x
     stylus: ^0.x
   checksum: 50fab5644a2beec43ece2b82323f95cd82b722499b17ad478f42fe358ceaeb76dd25c053ca9d190b747ffbbea3dc7a0ed9df22ec57a0df1f6844ec35e822e82c
+  languageName: node
+  linkType: hard
+
+"esbuild-style-plugin@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "esbuild-style-plugin@npm:1.6.0"
+  dependencies:
+    "@types/less": ^3.0.3
+    "@types/sass": ^1.43.1
+    "@types/stylus": ^0.48.37
+    glob: ^8.0.1
+    postcss: ^8.4.12
+    postcss-modules: ^4.3.1
+  checksum: b4987f30b0e40f4e68d5c221269fd378fe78b0618b94a502de85b635dab92eb13298bda05af54e072f370c9ef6df3624811458aa502120b489ba9b63e625dc53
   languageName: node
   linkType: hard
 
@@ -3467,6 +3506,7 @@ __metadata:
     autoprefixer: ^10.4.8
     esbuild: ^0.14.54
     esbuild-plugin-postcss2: ^0.1.2
+    esbuild-style-plugin: ^1.6.0
     eslint: ^8.21.0
     eslint-plugin-react: latest
     http-server: ^14.1.1
@@ -4501,7 +4541,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-modules@npm:^4.0.0":
+"postcss-modules@npm:^4.0.0, postcss-modules@npm:^4.3.1":
   version: 4.3.1
   resolution: "postcss-modules@npm:4.3.1"
   dependencies:
@@ -4547,7 +4587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.x, postcss@npm:^8.4.14, postcss@npm:^8.4.16":
+"postcss@npm:8.x, postcss@npm:^8.4.12, postcss@npm:^8.4.14, postcss@npm:^8.4.16":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
