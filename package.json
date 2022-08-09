@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "yarn build:css && yarn build:js",
-    "build:css": "tailwindcss -i ./src/index.css -o ./public/index.css --minify",
+    "build:css": "yarn exec tailwindcss -i ./src/index.css -o ./public/index.css --minify",
     "build:js": "node build.mjs",
     "serve": "http-server -c-1 public",
-    "watch": "yarn watch:css && yarn watch:js",
+    "watch": "yarn watch:css & yarn watch:js",
     "watch:js": "node watch.mjs",
-    "watch:css": "npx tailwindcss -i ./src/index.css -o ./public/index.css --watch"
+    "watch:css": "yarn exec tailwindcss -i ./src/index.css -o ./public/index.css --watch"
   },
   "author": "Christophe DELIQUAIRE <christophe.deliquaire@gmail.com>",
   "license": "MIT",
