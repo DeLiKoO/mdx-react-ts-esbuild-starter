@@ -4,9 +4,13 @@
   "description": "MDX/React TypeScript with esbuild Starter Kit",
   "main": "index.js",
   "scripts": {
-    "build": "node build.mjs",
+    "build": "yarn build:css && yarn build:js",
+    "build:css": "tailwindcss -i ./src/index.css -o ./public/index.css --minify",
+    "build:js": "node build.mjs",
     "serve": "http-server -c-1 public",
-    "watch": "node watch.mjs"
+    "watch": "yarn watch:css && yarn watch:js",
+    "watch:js": "node watch.mjs",
+    "watch:css": "npx tailwindcss -i ./src/index.css -o ./public/index.css --watch"
   },
   "author": "Christophe DELIQUAIRE <christophe.deliquaire@gmail.com>",
   "license": "MIT",
@@ -21,8 +25,12 @@
     "@types/react": "^18.0.17",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.14",
     "@yarnpkg/sdks": "^3.0.0-rc.14",
+    "autoprefixer": "^10.4.8",
     "esbuild": "^0.14.54",
+    "esbuild-plugin-postcss2": "^0.1.2",
     "http-server": "^14.1.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
     "typescript": "^4.7.4"
   },
   "packageManager": "yarn@3.2.2"

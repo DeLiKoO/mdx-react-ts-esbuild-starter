@@ -11,5 +11,12 @@ window.onload = function() {
     const root = ReactDOM.createRoot(
         rootDiv
     );
-    root.render((<Page />));
+    root.render((
+    <>
+        <h1 className="text-3xl font-bold underline">
+            Hello world!
+        </h1>
+        <Page />
+    </>
+    ));
 }
