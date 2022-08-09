@@ -1449,24 +1449,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaphil@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "isaphil@workspace:."
-  dependencies:
-    "@mdx-js/esbuild": ^2.1.2
-    "@mdx-js/react": ^2.1.2
-    "@types/mdx": ^2.0.2
-    "@types/react": ^18.0.17
-    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.14
-    "@yarnpkg/sdks": ^3.0.0-rc.14
-    esbuild: ^0.14.54
-    http-server: ^14.1.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
-
 "isexe@npm:^2.0.0":
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
@@ -1698,6 +1680,24 @@ __metadata:
   checksum: 71731ecba943926bfbf9f9b51e28b5945f9411c4eda80894221b47cc105afa43ba2da820732b436f0798fd3edbbffcd1fc1415843c41a87fea08a41cc1e3d02b
   languageName: node
   linkType: hard
+
+"mdx-react-ts-esbuild-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "mdx-react-ts-esbuild-starter@workspace:."
+  dependencies:
+    "@mdx-js/esbuild": ^2.1.2
+    "@mdx-js/react": ^2.1.2
+    "@types/mdx": ^2.0.2
+    "@types/react": ^18.0.17
+    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.14
+    "@yarnpkg/sdks": ^3.0.0-rc.14
+    esbuild: ^0.14.54
+    http-server: ^14.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
 
 "merge2@npm:^1.3.0, merge2@npm:^1.4.1":
   version: 1.4.1

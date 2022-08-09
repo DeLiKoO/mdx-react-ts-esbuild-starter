@@ -17,14 +17,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "isaphil",\
+        "name": "mdx-react-ts-esbuild-starter",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["isaphil", ["workspace:."]]\
+      ["mdx-react-ts-esbuild-starter", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -33,16 +33,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@mdx-js/esbuild", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
-            ["@mdx-js/react", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
+            ["@mdx-js/esbuild", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
+            ["@mdx-js/react", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
             ["@types/mdx", "npm:2.0.2"],\
             ["@types/react", "npm:18.0.17"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:3.0.0-rc.14"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:3.0.0-rc.14"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
             ["esbuild", "npm:0.14.54"],\
             ["http-server", "npm:14.1.1"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:18.2.0"],\
+            ["react-dom", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -75,10 +75,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2", {\
-          "packageLocation": "./.yarn/__virtual__/@mdx-js-esbuild-virtual-7de8f5f063/0/cache/@mdx-js-esbuild-npm-2.1.2-9dc203ce58-d1b6a03e53.zip/node_modules/@mdx-js/esbuild/",\
+        ["virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/@mdx-js-esbuild-virtual-bb6754e863/0/cache/@mdx-js-esbuild-npm-2.1.2-9dc203ce58-d1b6a03e53.zip/node_modules/@mdx-js/esbuild/",\
           "packageDependencies": [\
-            ["@mdx-js/esbuild", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
+            ["@mdx-js/esbuild", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
             ["@mdx-js/mdx", "npm:2.1.2"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.14.54"],\
@@ -126,10 +126,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2", {\
-          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-8d029e33e1/0/cache/@mdx-js-react-npm-2.1.2-d399dcf3c9-c1114c6834.zip/node_modules/@mdx-js/react/",\
+        ["virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-ab0632979c/0/cache/@mdx-js-react-npm-2.1.2-d399dcf3c9-c1114c6834.zip/node_modules/@mdx-js/react/",\
           "packageDependencies": [\
-            ["@mdx-js/react", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
+            ["@mdx-js/react", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
             ["@types/mdx", "npm:2.0.2"],\
             ["@types/react", "npm:18.0.17"],\
             ["react", "npm:18.2.0"]\
@@ -453,10 +453,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:3.0.0-rc.14", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-de097b6d98/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.14-1f35c4d7ab-7213b06d80.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:3.0.0-rc.14", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-f49fa55a06/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.14-1f35c4d7ab-7213b06d80.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:3.0.0-rc.14"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:3.0.0-rc.14"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.14.54"],\
             ["tslib", "npm:1.14.1"]\
@@ -1747,26 +1747,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["isaphil", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["isaphil", "workspace:."],\
-            ["@mdx-js/esbuild", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
-            ["@mdx-js/react", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:2.1.2"],\
-            ["@types/mdx", "npm:2.0.2"],\
-            ["@types/react", "npm:18.0.17"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:3.0.0-rc.14"],\
-            ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
-            ["esbuild", "npm:0.14.54"],\
-            ["http-server", "npm:14.1.1"],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:18.2.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
-          ],\
-          "linkType": "SOFT"\
-        }]\
-      ]],\
       ["isexe", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/isexe-npm-2.0.0-b58870bd2e-26bf6c5480.zip/node_modules/isexe/",\
@@ -2025,6 +2005,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mdurl", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mdx-react-ts-esbuild-starter", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["mdx-react-ts-esbuild-starter", "workspace:."],\
+            ["@mdx-js/esbuild", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
+            ["@mdx-js/react", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:2.1.2"],\
+            ["@types/mdx", "npm:2.0.2"],\
+            ["@types/react", "npm:18.0.17"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:3.0.0-rc.14"],\
+            ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
+            ["esbuild", "npm:0.14.54"],\
+            ["http-server", "npm:14.1.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["merge2", [\
@@ -2736,10 +2736,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:18.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-ef1af110c0/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+        ["virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-ae0849b910/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
-            ["react-dom", "virtual:17dbc116133606935879d5ba74f6e80fc1612d8b13b77a27d72c82d405a2d1f89af226aaaaf697b33d94dc7c3a44a5a6a89a42a21a7f9413d195bb4401cfecf4#npm:18.2.0"],\
+            ["react-dom", "virtual:183cff8228281051ece183a91a9c1f6ebd6211d863ba00ac21fb9cdb296d7311570690f2e6d2829cb53d88cac4419eb8da3d588606ef4f59cf2f2181d4ceefd5#npm:18.2.0"],\
             ["@types/react", "npm:18.0.17"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
